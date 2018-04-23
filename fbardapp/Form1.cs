@@ -41,12 +41,38 @@ namespace fbardapp
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                Notifier.Visible = true;
+                this.ShowInTaskbar = false;
+                Notifier.ShowBalloonTip(500, "Notifier", "Running Minimized",ToolTipIcon.None);
+            }
+                
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void Notifier_MouseDoubleClick(object sender, MouseEventArgs e) => Maximize();
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e) => Maximize();
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e) => Application.Exit();
+
+        void Maximize()
+        {
+            this.WindowState = FormWindowState.Normal;
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                Notifier.Visible = false;
+                this.ShowInTaskbar = true;
+            }
+        }
+
+       
+
     }
 }

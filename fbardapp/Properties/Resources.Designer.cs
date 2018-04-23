@@ -63,9 +63,9 @@ namespace fbardapp.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arrow_207_32 {
+        internal static System.Drawing.Bitmap arrow_204_32 {
             get {
-                object obj = ResourceManager.GetObject("arrow-207-32", resourceCulture);
+                object obj = ResourceManager.GetObject("arrow-204-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,29 +73,9 @@ namespace fbardapp.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arrow_207_48 {
+        internal static System.Drawing.Bitmap x_mark_32 {
             get {
-                object obj = ResourceManager.GetObject("arrow-207-48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap x_mark_4_32 {
-            get {
-                object obj = ResourceManager.GetObject("x-mark-4-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap x_mark_4_48 {
-            get {
-                object obj = ResourceManager.GetObject("x-mark-4-48", resourceCulture);
+                object obj = ResourceManager.GetObject("x-mark-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
